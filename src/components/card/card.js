@@ -32,7 +32,7 @@ const Card = () => {
     <div class="card-footer text-body-secondary">
       <div className='row'>
         <div className='col-6 social-media'>
-        <a target='_blank' href={'https://twitter.com/intent/tweet?text="'+quote+'." '+author+'&hashtags=quotes'} rel="noreferrer"><Twitter size='35' /></a>
+        <a target='_blank' href={'https://twitter.com/intent/tweet?text="'+quote+'." '+author+'&hashtags=quotes'} rel="noreferrer" id='tweet-quote'><Twitter size='35' /></a>
         </div>
         <div className='col-6 text-end'>
           <button onClick={btnChangeQuote} type="button" className="btn btn-danger" id='new-quote'>Change quote <ArrowRight size='23' /></button>
