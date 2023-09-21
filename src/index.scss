@@ -3,3 +3,7 @@ $body-bg: #74bf9d;
 
 // Import Bootstrap and its default variables
 @import 'bootstrap/scss/bootstrap.scss';
+
+#root {
+  height: 100vh;
+}

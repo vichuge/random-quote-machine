@@ -6,7 +6,7 @@ const App = () => {
     <div className='container-fluid '>
       <div className='row'>
         <div className='col-4'></div>
-        <div className='col-4'>
+        <div className='col-4 align-middle my-auto'>
           <Card />
         </div>
         <div className='col-4'></div>
