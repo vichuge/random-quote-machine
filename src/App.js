@@ -1,16 +1,15 @@
 import './App.scss';
+import Card from './components/card/card';
 
 const App = () => {
   return (
-    <div className='app'>
+    <div className='container-fluid '>
       <div className='row'>
-        <div className='col-6'>
-          <p>Hello</p>
+        <div className='col-4'></div>
+        <div className='col-4'>
+          <Card />
         </div>
-        <div className='col-6'>
-          <p>There</p>
-          <button type="button" className="btn btn-primary">Primary</button>
-        </div>
+        <div className='col-4'></div>
       </div>
     </div>
   );
